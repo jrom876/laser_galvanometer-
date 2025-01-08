@@ -7,7 +7,7 @@
 //  Project Engineer:    Jacob M. Romero
 //                       Creative Engineering Solutions, LLC
 //                       jrom876@gmail.com
-//  Github Repo:         https://github.com/jrom876/LP_Jetson
+//  Github Repo:         https://github.com/jrom876/laser_galvanometer
 //
 // Jetson Nano:         ARM A57 4 cores
 // Zotac machine:       Intel Core i7 9750H 6 cores/12 threads
