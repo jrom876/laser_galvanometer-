@@ -12,6 +12,14 @@
 // Jetson Nano:         ARM A57 4 cores
 // Zotac machine:       Intel Core i7 9750H 6 cores/12 threads
 //
+//  ----------
+//  Copyright
+//  ----------
+//
+//  Copyright (C) Creative Engineering Solutions, LLC - All Rights Reserved
+//  This file is the property of Creative Engineering Solutions, LLC
+//  Unauthorized copying of this file, via any medium is strictly prohibited.
+//  Proprietary and confidential
 //
 //===========================================================
 
