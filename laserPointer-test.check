@@ -1,0 +1,42 @@
+
+//===========================================================
+//
+//  File Name:           laser-test.check
+//  Project Name:        LP_Jetson
+//  Project Owner:       Steven W. Goldstein
+//  Project Engineer:    Jacob M. Romero
+//                       Creative Engineering Solutions, LLC
+//  Github Repo:         https://github.com/jrom876/LP_Jetson
+//
+//===========================================================
+
+#include "laserPointer.h"
+#include <check.h>
+
+#define PI 3.141592
+
+//// To generate and run test code automatically,
+//// run the following commands on the linux command line:
+//// checkmk laserPointer-test.check >laserPointer-test.c
+//// make -f make-test.mk lptest
+
+struct LaserPointer {
+  int xcoord;
+  int ycoord;
+  double zcoord;
+};
+
+struct LaserPointer makeLaser(int x, int y, double z) {
+  struct LaserPointer lp0 = createLaser(x,y,z);
+  return lp0;
+}
+
+int runThis(void) {
+  printf("Test the testfile\n");
+  //printf("%d = %c\n", 127,"127");
+  return 0;
+}
+
+#test lptest
+runThis();
+makeLaser(32762,32762,2.5);
