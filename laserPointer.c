@@ -11,18 +11,35 @@
 //
 // Jetson Nano:         ARM A57 4 cores
 // Zotac machine:       Intel Core i7 9750H 6 cores/12 threads
-//
-//  ----------
-//  Copyright
-//  ----------
-//
-//  Copyright (C) Creative Engineering Solutions, LLC - All Rights Reserved
-//  This file is the property of Creative Engineering Solutions, LLC
-//  Unauthorized copying of this file, via any medium is strictly prohibited.
-//  Proprietary and confidential
-//
+
+/**
+	Copyright (C) 2019, 2021 
+	Jacob Romero, Creative Engineering Solutions, LLC
+	cesllc876@gmail.com
+
+	This program is free software; you can redistribute it
+	and/or modify it under the terms of the GNU General Public  
+	License as published by the Free Software Foundation, version 2.
+
+	This program is distributed in the hope that it will be
+	useful, but WITHOUT ANY WARRANTY; without even the implied 
+	warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+	
+	See the GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public
+	License along with this program; if not, write to:
+	The Free Software Foundation, Inc.
+	59 Temple Place, Suite 330
+	Boston, MA 02111-1307 USA
+
+**/
+
+
 //===========================================================
 // https://raspberry-projects.com/pi/programming-in-c/gui-programming-in-c/gtk/installing-gtk
+//#include <gtk/gtk.h>
+
 #include <inttypes.h>
 #include <string.h>
 #include <math.h>
@@ -31,7 +48,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include "laserPointer.h"
-//#include <gtk/gtk.h>
 
 /// STANDARD DEFINITIONS FOR PROJECT SCICALC 
 #define PI	3.14159265358979323846 	// ad infinitum sine repeto
