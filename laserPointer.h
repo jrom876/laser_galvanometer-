@@ -3,8 +3,7 @@
 //
 //  File Name:           laserPointer.h
 //  Project Name:        LP_Jetson
-//  Project Owner:       Steven W. Goldstein
-//                       IntelliShot Holdings, Inc.
+//  Project Owner:       Creative Engineering Solutions, LLC
 //  Project Engineer:    Jacob M. Romero
 //                       Creative Engineering Solutions, LLC
 //                       jrom876@gmail.com
@@ -13,14 +12,6 @@
 // Jetson Nano:         ARM A57 4 cores
 // Zotac machine:       Intel Core i7 9750H 6 cores/12 threads
 //
-//  ----------
-//  Copyright
-//  ----------
-//
-//  Copyright (C) Intellishot Holdings, Inc - All Rights Reserved
-//  This file is the property of Intellishot Holdings, Inc
-//  Unauthorized copying of this file, via any medium is strictly prohibited
-//  Proprietary and confidential
 //
 //===========================================================
 
