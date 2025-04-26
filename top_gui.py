@@ -19,9 +19,9 @@ except ImportError:  # Python 3
     import tkinter.messagebox as tkMessageBox
 
 #############################################
-# Windows or Linux
-# Uncomment and set as needed
-#COMPORT='COM12'
+## Windows or Linux Port Declaration
+## Uncomment and set as needed
+# COMPORT='COM12'
 # COMPORT='/dev/ttyUSB0'
 #############################################
 # # Serial port
@@ -50,9 +50,9 @@ row_size = 25
 # libname = "./liblaserPointer.so"
 # LIBC = ctypes.CDLL(libname)
 #############################################
-# Adjust this mask as needed,
-# use 0xF for all lasers controllers
-#lc_position_mask = 0x8
+## Adjust this mask as needed,
+## use 0xF for all lasers controllers
+# lc_position_mask = 0x8
 # lc_position_mask = 0xF
 ################## Globals ##################
 PI = 3.14159265359
@@ -97,7 +97,7 @@ xcoord_label        = tk.Label(root, text="XCoord")
 ycoord_label        = tk.Label(root, text="YCoord")
 xwidth_label        = tk.Label(root, text="XWidth")
 ywidth_label        = tk.Label(root, text="YWidth")
-pwm_label          = tk.Label(root, text="PWM\n(%Mod)")
+pwm_label           = tk.Label(root, text="PWM\n(%Mod)")
 target_detect_label = tk.Label(root, text="Target\nDetect")
 target_lock_label   = tk.Label(root, text="Target\nLock")
 target_dispo_label  = tk.Label(root, text="Target\nDispo")
@@ -159,7 +159,7 @@ class LaserPointer:
         self.ycoord     = ycoord
         self.pwm        = pwm
         self.lasertuple = (xcoord,ycoord,pwm)
-        self.laserlist = [xcoord,ycoord,pwm]
+        self.laserlist  = [xcoord,ycoord,pwm]
         print("{0} : {1} : {2} \n".format(self.xcoord,
                         self.ycoord,self.pwm))
 
